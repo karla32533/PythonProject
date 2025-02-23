@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even Listening </title>
+
+  
+    <style>
+        #btn{
+            border-radius: 10px;
+            color: white; font-weight: bold; font-size: 1rem; 
+            padding: 10px;
+            background-color: rgb(41, 24, 168);
+            cursor: pointer;
+        }
+
+        #btn:hover{
+            font-size: 1.1rem;
+            color: rgb(130, 130, 231);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p id="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt unde expedita deserunt nam debitis obcaecati repellat ab ut excepturi necessitatibus eius, facere dignissimos blanditiis modi officia. Laboriosam accusamus voluptates mollitia vel dicta laudantium, illum ipsum hic? Adipisci aspernatur quam repellendus commodi deleniti harum, suscipit, facere voluptatum non unde soluta a quod rerum, dolorem natus nisi magnam? Recusandae, accusamus! Perferendis aliquam non nihil eaque quo numquam magnam ipsa voluptatum repellat! Provident, ullam amet. Dolorum, voluptatem numquam. Culpa eaque necessitatibus, harum distinctio delectus inventore, quas incidunt eos, minima dolorem a mollitia magnam sapiente esse obcaecati totam! Aliquam exercitationem repudiandae mollitia eum repellat excepturi dolore suscipit illum sequi dicta architecto, eius repellendus consequatur? Vitae quae, doloremque totam quam aliquam incidunt iusto at ipsum consequuntur harum molestiae minima necessitatibus nulla eius fugit itaque sapiente, dolores neque dolor similique temporibus. Reiciendis, quaerat. Nobis quo hic ex rem labore perspiciatis excepturi ipsa? Nobis enim odio eum nesciunt, repudiandae nemo. Consequuntur consectetur praesentium perspiciatis, veritatis, aut dolore repellendus dolores similique vel ullam sapiente fugit iste? Repellendus obcaecati, ipsum doloremque minus facilis praesentium voluptas ipsa minima animi consequatur <p> 
+    </div>
+    <button id="btn" onclick="togglehide()">showHide</button>
+
+    <script>
+        function togglehide(){
+            // let btn = document.getElementById("btn");
+            let para = document.getElementById("para");
+
+            if(para.style.display != "none"){
+                para.style.display = "none";
+            }
+            else{
+                para.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
